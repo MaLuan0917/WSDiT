@@ -3,11 +3,11 @@ Luan Ma and Lei Liu*
 
 ## Weak Stage Architecture of the Weak-to-Strong Diffusion-Transformer Model (WDiT)
 
-<img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/Weak.jpg#pic_center">  
+<img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/Weak.jpg#pic_center">  
 
 ## Strong Stage Architecture of the Weak-to-Strong Diffusion-Transformer Model (SDiT)
 
-<img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/strong.jpg#pic_center"> 
+<img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/strong.jpg#pic_center"> 
 
  
 ## Requirements
@@ -54,24 +54,24 @@ Training and testing instructions and visualization results for Image Deraining,
 <details>
 <summary><strong>Image Deraining</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/deraining.jpg#pic_center"></p> 
-<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/table1.jpg#pic_center" width="1000"></p> 
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/deraining.jpg#pic_center"></p> 
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/table1.jpg#pic_center" width="1000"></p> 
 
 </details>
 
 <details>
 <summary><strong>Image Deblurring</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/deblurring.jpg#pic_center" width="500"></p>
-<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/table3.jpg#pic_center" width="1000"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/deblurring.jpg#pic_center" width="500"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/table3.jpg#pic_center" width="1000"></p>
 </details>
 
 <details>
 <summary><strong>Real Image Denoising</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/SIDD.jpg" width="500"></p>
-<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/DND.jpg" width="500"></p>
-<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/table2.jpg#pic_center" width="1000"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/SIDD.jpg" width="500"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/DND.jpg" width="500"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/raw/main/Figs/table2.jpg#pic_center" width="1000"></p>
 </details>
 
 
