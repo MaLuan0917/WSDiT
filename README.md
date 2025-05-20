@@ -1,15 +1,13 @@
-# Coarse-to-Fine Mechanisms Mitigate Diffusion Limitations on Image Restoration (C2F-DFT)
-Liyan Wang, Qinyu Yang, Cong Wang, Wei Wang, and Zhixun Su*
+# Image Restoration based on Weak-to-Strong Diffusion-Transformer Model(WSDiT)
+Luan Ma and Lei Liu*
 
-[2024-08-11] Our paper is accepted to Computer Vision and Image Understanding (CVIU).
+## Weak Stage Architecture of the Weak-to-Strong Diffusion-Transformer Model (WDiT)
 
-## Coarse Training Pipeline of Diffusion Transformer Model (DFT)
+<img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/Weak.jpg#pic_center">  
 
-<img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/coarse.png#pic_center">  
+## Strong Stage Architecture of the Weak-to-Strong Diffusion-Transformer Model (SDiT)
 
-## Fine Training Pipeline and Sampling Phase
-
-<img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/fine.png#pic_center"> 
+<img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/strong.jpg#pic_center"> 
 
  
 ## Requirements
@@ -29,7 +27,7 @@ Training and testing instructions and visualization results for Image Deraining,
     <th align="center">Task</th>
     <th align="center">Training</th>
     <th align="center">Testing</th>
-    <th align="center">C2F-DFT's Visual Results</th>
+    <th align="center">WSDiT's Visual Results</th>
   </tr>
   <tr>
     <td align="center">Image Deraining</td>
@@ -56,36 +54,26 @@ Training and testing instructions and visualization results for Image Deraining,
 <details>
 <summary><strong>Image Deraining</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/tab1.png#pic_center"></p> 
-<p align="center"><img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/fig3.png#pic_center" width="1000"></p> 
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/deraining.jpg#pic_center"></p> 
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/table1.jpg#pic_center" width="1000"></p> 
 
 </details>
 
 <details>
 <summary><strong>Image Deblurring</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/tab2.png#pic_center" width="500"></p>
-<p align="center"><img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/fig4.png#pic_center" width="1000"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/deblurring.jpg#pic_center" width="500"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/table3.jpg#pic_center" width="1000"></p>
 </details>
 
 <details>
 <summary><strong>Real Image Denoising</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/tab3.png#pic_center" width="500"></p>
-<p align="center"><img src = "https://github.com/wlydlut/C2F-DFT/blob/main/Figs/fig5.png#pic_center" width="1000"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/SIDD.jpg" width="500"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/DND.jpg" width="500"></p>
+<p align="center"><img src = "https://github.com/MaLuan0917/WSDiT/blob/main/Figs/table2.jpg#pic_center" width="1000"></p>
 </details>
 
-## Citation
-```
-@article{WANG2024104118,
-title = {Coarse-to-fine mechanisms mitigate diffusion limitations on image restoration},
-journal = {Computer Vision and Image Understanding},
-volume = {248},
-pages = {104118},
-year = {2024},
-issn = {1077-3142},
-}
-```
 
 ## Acknowledgments 
 This code is based on the [BasicSR](https://github.com/xinntao/BasicSR) toolbox and [Restormer](https://github.com/swz30/Restormer), [WeatherDiffusion](https://github.com/IGITUGraz/WeatherDiffusion). 
