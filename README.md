@@ -20,32 +20,28 @@ Luan Ma and Lei Liu*
 
 ## Training and Evaluation
 
-Training and testing instructions and visualization results for Image Deraining, Image Deblurring, and Real Image Denoising are provied in the links below. 
+Training and testing instructions for Image Deraining, Image Deblurring, and Real Image Denoising are provied in the links below. 
 
 <table>
   <tr>
     <th align="center">Task</th>
     <th align="center">Training</th>
     <th align="center">Testing</th>
-    <th align="center">WSDiT's Visual Results</th>
   </tr>
   <tr>
     <td align="center">Image Deraining</td>
     <td align="center"><a href="Deraining/README.md#training">Link</a></td>
     <td align="center"><a href="Deraining/README.md#testing">Link</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/1uQorXLaH3so42_EZUW-FZA 提取码: 0917">Download</a></td>
   </tr>
   <tr>
     <td align="center">Image Deblurring</td>
     <td align="center"><a href="Deblurring/README.md#training">Link</a></td>
     <td align="center"><a href="Deblurring/README.md#testing">Link</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/1EroXXSh1mAp0dBA_8aV2Ag 提取码: 0917 ">Download</a></td>
   </tr>
   <tr>
      <td align="center">Real Image Denoising</td>
     <td align="center"><a href="Denoising/README.md#training">Link</a></td>
     <td align="center"><a href="Denoising/README.md#testing">Link</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/1TN2L7ijgAsf9I7SwM2Y9UA 提取码: 0917">Download</a></td>
   </tr>
 </table>
 
